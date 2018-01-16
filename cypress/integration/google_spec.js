@@ -6,7 +6,7 @@ describe('Google test', function() {
       .type('hello world')
       .should('have.value', 'hello world')
 
-    cy.contains('Google Search').click()
+    cy.get("input.lsb").first().click()
 
     cy.url().should('include', 'https://www.google.com/search')
 
