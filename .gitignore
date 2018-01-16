@@ -22,3 +22,5 @@ yarn-error.log*
 
 # cypress
 /cypress/videos
+/cypress/screenshots
+/.Trash-0
